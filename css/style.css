@@ -1,0 +1,73 @@
+
+@font-face {
+  font-family: 'BickhamScriptTwo';
+  src: url('../fonts/BickhamScriptTwo.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/BickhamScriptTwo.eot?#iefix') format("embedded-opentype"), /* IE6-IE8 */
+    url('../fonts/BickhamScriptTwo.otf') format("opentype"), /* Open Type Font */
+    url('../fonts/BickhamScriptTwo.svg') format('svg'), /* Legacy iOS */
+    url("../fonts/BickhamScriptTwo.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/BickhamScriptTwo.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/BickhamScriptTwo.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "aBighausTitul-ExtraBold";
+  src: url("../fonts/BighausTitulExtraBold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/BighausTitulExtraBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/BighausTitulExtraBold.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/BighausTitulExtraBold.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/BighausTitulExtraBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/BighausTitulExtraBold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/BighausTitulExtraBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ChampagneLimousines";
+  src: url("./fonts/CHAMPAGNELIMOUSINES0.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/CHAMPAGNELIMOUSINES0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/CHAMPAGNELIMOUSINES0.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/CHAMPAGNELIMOUSINES0.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/CHAMPAGNELIMOUSINES0.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/CHAMPAGNELIMOUSINES0.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/CHAMPAGNELIMOUSINES0.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ChampagneLimousines-Bold";
+  src: url("../fonts/CHAMPAGNELIMOUSINESBOLD0.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/CHAMPAGNELIMOUSINESBOLD0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/CHAMPAGNELIMOUSINESBOLD0.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/CHAMPAGNELIMOUSINESBOLD0.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/CHAMPAGNELIMOUSINESBOLD0.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/CHAMPAGNELIMOUSINESBOLD0.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/CHAMPAGNELIMOUSINESBOLD0.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ChampagneLimousines-BoldItalic";
+  src: url("../fonts/CHAMPAGNELIMOUSINESBOLDITALIC0.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/CHAMPAGNELIMOUSINESBOLDITALIC0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/CHAMPAGNELIMOUSINESBOLDITALIC0.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/CHAMPAGNELIMOUSINESBOLDITALIC0.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/CHAMPAGNELIMOUSINESBOLDITALIC0.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/CHAMPAGNELIMOUSINESBOLDITALIC0.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/CHAMPAGNELIMOUSINESBOLDITALIC0.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ChampagneLimousines-Italic";
+  src: url("../fonts/CHAMPAGNELIMOUSINESITALIC0.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/CHAMPAGNELIMOUSINESITALIC0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/CHAMPAGNELIMOUSINESITALIC0.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/CHAMPAGNELIMOUSINESITALIC0.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/CHAMPAGNELIMOUSINESITALIC0.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/CHAMPAGNELIMOUSINESITALIC0.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/CHAMPAGNELIMOUSINESITALIC0.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
