@@ -2,7 +2,14 @@ body{
     line-height: 1;
     width: 100%;
 }
-.TopMain span{
+.Hi{
+    height: 100px;
+}
+.TopMain{
+    display: flex;
+    justify-content:space-between;
+}
+.konkunsar span{
     padding-left: 8em;
     text-shadow: 1px 1px white, 1px 1px white, -1px -1px white, -1px -1px white, -1px 1px white, 1px -1px white, -1px 1px white, 1px -1px white, -3px -3px 4px rgba(0,0,0,.3), -3px 3px 4px rgb(0, 0, 0), 3px 3px 4px rgba(0,0,0,0), 3px -3px 4px rgba(0,0,0,0);
     font-family: 'ChampagneLimousines';
@@ -15,7 +22,14 @@ body{
   text-align: center;
   color: #ff0027;
 }
+.konkunsar{
+    height: 15px;
+    display: inline-block;
+    position: relative;
+    top: -30px;
+}
 .styledropdown{
+    height: 20px;
     text-shadow: 1.4px 1.4px 1px #000000;
     font-weight: bold;
     padding-left: 38px;
@@ -39,6 +53,88 @@ body{
     width: 265px;
     background-color: #8b3bccfa;
     box-shadow:0px 0px 15px 10px #8021cd ;
+    
+}
+.dropdown-item{
+    font-family: "ChampagneLimousines-Bold";
+    font-size: 13.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #475566;
+    height: 27px;
+}
+.num1:hover:after{
+    content: "";
+    position:absolute;
+    width: 5.5px;
+    left: 250px;
+    top: 8px;
+    height: 27px;
+    background-color: #a1a8af;
+
+}
+.num2:hover:after{
+    content: "";
+    position:absolute;
+    width: 5.5px;
+    left: 250px;
+    top: 35px;
+    height: 27px;
+    background-color: #a1a8af;
+
+}
+.num3:hover:after{
+    content: "";
+    position:absolute;
+    width: 5.5px;
+    left: 250px;
+    top: 62px;
+    height: 27px;
+    background-color: #a1a8af;
+
+}
+.num4:hover:after{
+    content: "";
+    position:absolute;
+    width: 5.5px;
+    left: 250px;
+    top: 89px;
+    height: 27px;
+    background-color: #a1a8af;
+
+}
+.num5:hover:after{
+    content: "";
+    position:absolute;
+    width: 5.5px;
+    left: 250px;
+    top: 116px;
+    height: 27px;
+    background-color: #a1a8af;
+
+}
+.num6:hover:after{
+    content: "";
+    position:absolute;
+    width: 5.5px;
+    left: 250px;
+    top: 143px;
+    height: 27px;
+    background-color: #a1a8af;
+
+}
+.dropdown-item:hover{
+    background-color: #d0d8e1;
+
+}
+.dropdown-menu.show{
+    transform: translate3d(0px, 17px, 0px) !important;
+    border-right: 6px solid #d0d8e1;
+    width: 257px;
+    display: block;
     
 }
 .styledropdown:not(:disabled):not(.disabled):active{
@@ -75,27 +171,31 @@ body{
 }
 
 #Prize {
-    justify-content: center;
+    background-size: 2vmin 38%;
+
     background-repeat-y: no-repeat;
     display: flex;
-    background-image: url('../img/10.png');
+    background-image: url('../img/10121.png');
     
 }
 #Prize2{
-    justify-content: center;
+    background-size: 2vmin 54%;
+    
     background-repeat-y: no-repeat;
     display: flex;
-    background-image: url('../img/10.png');
+    background-image: url('../img/10121.png');
     
 }
-
+.RowMiddle{
+    display: flex;
+}
 
 .row-1{   
-flex: 5;
+flex: 3;
 }
 
 .row-3{
-    min-height: 415px;
+    min-height: 390px;
    min-width: 513px;
     position: relative;
     margin-top: 110px;
@@ -124,7 +224,7 @@ flex: 5;
     
 }
 .row2-1 span{
-    margin-left: 60px;
+    margin-left: 63px;
     margin-top: 5px;
     display: inline-block;
    
@@ -220,15 +320,39 @@ flex: 5;
     height: 15px ; 
 }
 .firstPrizeMoyo{
-    min-width: 320px;
-    max-width: 320px;
-    top: 78px;
-    height: 255px;
+    min-width: 288px;
+    max-width: 290px;
+    top: 80px;
+    height: 225px;
     position: relative;
     color: #798ea8;
     background-color: #fff;
-    margin-top: 149px;
+    margin-top: 120px;
+    text-shadow:2px 2px 2px #fff, 
+    0 2px 2px #fff, 
+    -2px 0 2px #fff, 
+    0 -2px 2px #fff,
+    3px 3px 2px #fff, 
+    0 3px 2px #fff, 
+    -3px 0 2px #fff, 
+    0 -3px 2px #fff,
+    4px 4px 2px #fff, 
+    0 4px 2px #fff, 
+    -4px 0 2px #fff, 
+    0 -4px 2px #fff;
+    
+    
 }
+.firstPrizeMoyo:hover{
+    cursor: pointer;
+    color: #000;
+}
+
+#Prize2 .firstPrizeMoyo{
+    top: 153px;
+    
+}
+
 .BlockPrize{
     position: relative;
     transition: transform 0.5s;
@@ -244,6 +368,7 @@ flex: 5;
     -webkit-border-radius:187px;
 
 }
+
 .logoPrize{
     transition: transform 0.5s;
     border-radius: 0.4rem;
@@ -279,12 +404,32 @@ flex: 5;
     font-family: 'ChampagneLimousines';
     max-width: 104px;
     font-size: 9px;
-    left: -100px;   
-    top: 125px;
+    left: -105px;
+    top: 160px;
     padding: 2px;
     position: absolute;
     border: 1px solid #475566 ;
    opacity: 0;
+   outline: 4px solid #fff;
+}
+.BlockPrize:active::after
+{
+    content: " ";
+    position:absolute;
+    top: 149.5px;
+    left: -147px;
+    border: 25px solid transparent;	border-right: 20px solid #cecece;
+}
+.ActiveMoyo:active::after
+{
+    content: " ";
+    position:absolute;
+    top: 180.5px;
+    left: -162px;
+    border: 25px solid transparent;	border-right: 20px solid #cecece;
+}
+.BlockPrize:active{
+    transform: scale(1.3) !important;
 }
 .logoPrizeSecond p{
     margin: 0px;
@@ -295,9 +440,82 @@ flex: 5;
 .logoPrizeSecond.active{
     opacity: 1;
 }
+.BlockPrize:active + .aboutContest::before{
+    transform: scale(1.1);
+    width: 107px!important;
+    height: 107px!important;
+    background-image: Url('../img/ActivePrize.png')!important;
+    z-index: 1;
+}
 
+.BlockPrize:active + .aboutContestGreen::before{
+    transform: scale(1.1);
+    width: 107px!important;
+    height: 107px!important;
+    background-image: Url('../img/ActivePrize.png')!important;
+    z-index: 1 !important;
+}
+.BlockPrize:active + .aboutContestViolet::before{
+    transform: scale(1.1);
+    width: 107px!important;
+    height: 107px!important;
+    background-image: Url('../img/ActivePrize.png')!important;
+    z-index: 1 !important;
+}
+.BlockPrize:active + .aboutContestOrange::before{
+    transform: scale(1.1);
+    width: 107px!important;
+    height: 107px!important;
+    background-image: Url('../img/ActivePrize.png')!important;
+    z-index: 1 !important;
+}
+.BlockPrize:active + .aboutContestDarkGreen::before{
+    transform: scale(1.1);
+    width: 107px!important;
+    height: 107px!important;
+    background-image: Url('../img/ActivePrize.png')!important;
+    z-index: 1 !important;
+}
+.BlockPrize:active + .aboutContestWhiteGreen::before{
+    transform: scale(1.1);
+    width: 107px!important;
+    height: 107px!important;
+    background-image: Url('../img/ActivePrize.png')!important;
+    z-index: 1 !important;
+}
+.BlockPrize:active + .aboutContestWhiteBlue::before{
+    transform: scale(1.1);
+    width: 107px!important;
+    height: 107px!important;
+    background-image: Url('../img/ActivePrize.png')!important;
+    z-index: 1 !important;
+}
+.BlockPrize:active + .aboutContestWhiteRed::before{
+    transform: scale(1.1);
+    width: 107px!important;
+    height: 107px!important;
+    background-image: Url('../img/ActivePrize.png')!important;
+    z-index: 1 !important;
+}
+.BlockPrize:active + .aboutContestRed::before{
+    transform: scale(1.1);
+    width: 107px!important;
+    height: 107px!important;
+    background-image: Url('../img/ActivePrize.png')!important;
+    z-index: 1 !important;
+}
+.BlockPrize:active + .aboutContestDarkBlue::before{
+    transform: scale(1.1);
+    width: 107px!important;
+    height: 107px!important;
+    background-image: Url('../img/ActivePrize.png')!important;
+    z-index: 1 !important;
+}
 .BlockPrize:hover + .aboutContest::before{
-    transform: scale(1.15);
+    transform: scale(1.1);
+    width: 97px;
+    height: 97px;
+    background-image: Url('../img/hoverPrize.png');
     z-index: 1;
 }
 
@@ -305,53 +523,82 @@ flex: 5;
  transform: scale(1.15);
 }
 .BlockPrize:hover + .aboutContestGreen::before
-{
-    transform: scale(1.15);
+{ transform: scale(1.1);
+    width: 97px;
+    height: 97px;
+    background-image: Url('../img/hoverPrize.png');
     z-index: 1;
 }
 .BlockPrize:hover + .aboutContestViolet::before
 {
-    transform: scale(1.15);
+    transform: scale(1.1);
+    width: 97px;
+    height: 97px;
+    background-image: Url('../img/hoverPrize.png');
     z-index: 1;
 }
 .BlockPrize:hover + .aboutContestDarkBlue::before
 {
-    transform: scale(1.15);
+    transform: scale(1.1);
+    width: 97px;
+    height: 97px;
+    background-image: Url('../img/hoverPrize.png');
     z-index: 1;
 }
 .BlockPrize:hover + .aboutContestDarkGreen::before
 {
-    transform: scale(1.15);
+    transform: scale(1.1);
+    width: 97px;
+    height: 97px;
+    background-image: Url('../img/hoverPrize.png');
     z-index: 1;
 }
 .BlockPrize:hover + .aboutContestOrange::before
 {
-    transform: scale(1.15);
+    transform: scale(1.1);
+    width: 97px;
+    height: 97px;
+    background-image: Url('../img/hoverPrize.png');
     z-index: 1;
 }
 .BlockPrize:hover + .aboutContestWhiteBlue::before
 {
-    transform: scale(1.15);
+    transform: scale(1.1);
+    width: 97px;
+    height: 97px;
+    background-image: Url('../img/hoverPrize.png');
     z-index: 1;
 }
 .BlockPrize:hover + .aboutContestWhiteGreen::before
 {
-    transform: scale(1.15);
+    transform: scale(1.1);
+    width: 97px;
+    height: 97px;
+    background-image: Url('../img/hoverPrize.png');
     z-index: 1;
 }
 .BlockPrize:hover + .aboutContestWhiteBlue::before
 {
-    transform: scale(1.15);
+    transform: scale(1.1);
+    width: 97px;
+    height: 97px;
+    background-image: Url('../img/hoverPrize.png');
     z-index: 1;
 }
 .BlockPrize:hover + .aboutContestWhiteRed::before
 {
-    transform: scale(1.15);
+    transform: scale(1.1);
+    width: 97px;
+    height: 97px;
+    background-image: Url('../img/hoverPrize.png');
     z-index: 1;
 }
 .BlockPrize:hover + .aboutContestRed::before
 {
-    transform: scale(1.15);
+    transform: scale(1.1);
+    width: 97px;
+    height: 97px;
+    background-image: Url('../img/hoverPrize.png');
     z-index: 1;
 }
 .aboutContest{
@@ -738,3 +985,12 @@ border:1px solid;
 .aboutContestWhiteRed .row2-3 h4{
     color:#d33933;
 }
+@media (min-width: 1364px){
+    #Prize{
+        justify-content: space-between;
+    }
+    #Prize2{
+        justify-content: space-between;
+    }
+}
+
