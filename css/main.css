@@ -174,7 +174,7 @@ body{
 }
 
 #Prize {
-    background-size: 2vmin 38%;
+    background-size: 4.55% 38%;
 
     background-repeat-y: no-repeat;
     display: flex;
@@ -182,8 +182,7 @@ body{
     
 }
 #Prize2{
-    background-size: 2vmin 54%;
-    
+    background-size: 4.55% 53%; 
     background-repeat-y: no-repeat;
     display: flex;
     background-image: url('../img/10121.png');
@@ -327,7 +326,7 @@ flex: 3;
     min-width: 288px;
     max-width: 290px;
     top: 80px;
-    height: 225px;
+    height: 150px;
     position: relative;
     color: #798ea8;
     background-color: #fff;
@@ -353,7 +352,7 @@ flex: 3;
 }
 
 #Prize2 .firstPrizeMoyo{
-    top: 100px;
+    top: 155px;
     
 }
 
