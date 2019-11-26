@@ -1,9 +1,64 @@
 body{
     line-height: 1;
     width: 100%;
+    margin-top: 50px;
 }
-.Hi{
+/*.Hi{
     height: 100px;
+}
+*/
+#main-nav {
+    background: #fff;
+    position: fixed;
+    top: 0;
+}
+#main-nav .navbar-toggler {
+    height: 18px;
+    overflow: hidden;
+    position: initial;
+    padding: unset;
+    border: none;
+    transform: rotate(90deg);
+}
+
+#main-nav .navbar-toggler span {
+    border: 1px solid #003046;
+    margin: 2px;
+    background-color: #000;
+}
+
+#main-nav .circle{
+    -webkit-animation: preloader 6s infinite linear;
+    -moz-animation: preloader 6s infinite linear;
+    -ms-animation: preloader 6s infinite linear;
+    -o-animation: preloader 6s infinite linear;
+    animation: preloader 6s infinite linear;
+    height: 100%;
+    position: absolute;
+    float: left;
+    border-radius: 999px;
+    left: 70px;
+}
+
+
+@-webkit-keyframes preloader {
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes preloader {
+    to { -moz-transform: rotate(360deg); }
+}
+
+@-ms-keyframes preloader {
+    to { -ms-transform: rotate(360deg); }
+}
+
+@-o-keyframes preloader {
+    to { -o-transform: rotate(360deg); }
+}
+
+@keyframes preloader {
+    to { transform: rotate(360deg); }
 }
 .TopMain{
     display: flex;
